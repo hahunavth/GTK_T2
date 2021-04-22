@@ -76,7 +76,7 @@ int main(int argc, char *argv[]) {
 	//init
   	gtk_init(&argc, &argv);
 
-  	//.glade file
+  //.glade file
 	builder = gtk_builder_new_from_file("../list_view.glade");
 	gtk_builder_connect_signals(builder, NULL);		//CONNECT SIGNAL FROM .GLADE FILE
 
